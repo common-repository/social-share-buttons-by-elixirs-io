@@ -1,0 +1,121 @@
+ .elixirs_wssi-container {
+	margin: 0 0 0 -20px;
+	box-sizing: border-box;
+}
+
+.elixirs_wssi-form{
+	padding-left: 20px;
+}
+
+ .elixirs_wssi-header {
+	background-color: #f1f1f1;
+    border-top: 3px solid #00ACEE;
+    padding: 20px;
+ }
+
+ .elixirs_wssi-icon-bkg {
+	background-color: #00ACEE;
+    height: 24px;
+    width: 24px;
+    float: left;
+    padding: 12px;
+    border-radius: 10px;
+ }
+
+ .elixirs_wssi-icon {
+    color: #ffffff;
+    font-size: 24px;
+ }
+
+ .elixirs_wssi-menu {
+	padding-left: 20px;
+    background: white;
+    margin: 0 0 30px 0;
+ }
+
+ .elixirs_wssi-menu a {
+    box-shadow: none;
+    padding: 20px 0 18px;
+    margin-right: 30px;
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    color: #3c3c3c;
+	text-decoration: none;
+	outline: 0;
+	margin-left: 0;
+	border: 0;
+	background: #fff;
+	float: none;
+
+}
+
+.elixirs_wssi-menu a.nav-tab-active {
+    border-bottom: 2px solid #00ACEE;
+}
+
+.elixirs_wssi-header h1 {
+    color: #23282c;
+    font-size: 23.33px;
+    position: relative;
+    margin-left: 66px;
+}
+
+table.form-table {
+	display:none;
+}
+
+table.form-table.nav-tab-active {
+	display: initial;
+}
+
+.elixirs_wssi_social li{
+    float: left;
+}
+
+.elixirs_wssi_social i{
+    font-size: 36px;
+    cursor: pointer;
+    padding-right: 12px;
+}
+
+.elixirs_wssi_social, .elixirs_wssi_social_fields {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.elixirs_wssi_social_fields p{
+    float: left;
+}
+
+.elixirs_wssi_social_fields i {
+    float: left;
+    margin: 10px;
+    width: 20px;
+    font-size: 20px;
+}
+
+.elixirs_wssi_social_fields i.fa-sort{
+    padding: 10px 40px 0 0;
+    font-size: 20px;
+    width: 20px;
+    cursor: move;
+    float: left;
+}
+
+.elixirs_wssi_social_fields label{
+    padding: 10px;
+    width: 80px;
+    float: left;
+}
+
+.elixirs_wssi_social_fields input[type=checkbox] {
+    float: left;
+    margin: 13px 40px 0 0!important;
+}
+
+.elixirs_wssi_social_fields input[type=text] {
+    margin: 5px;
+    width: 350px;
+}
